@@ -11,7 +11,7 @@ Page({
 
   },
   onAttendButtonClick: function () {
-    console.log("签到")
+    console.log("签到"),
     this.setData({
       buttonText: "签到成功"
     })
@@ -30,6 +30,7 @@ Page({
     //     console.log(res)
     //   }
     // })
+    // 添加注释
     var that = this;
     wx.getLocation({
       altitude: 'true',
