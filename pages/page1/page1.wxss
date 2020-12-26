@@ -1,0 +1,17 @@
+/* pages/page1/page1.wxss */
+page {
+  background-color: white;
+}
+
+map {
+  width: 700rpx;
+  height: 900rpx;
+  margin:auto;
+  margin-top: 50rpx;
+  margin-bottom: 30rpx;
+
+  border: 1px lightblue solid;
+
+
+}
+
